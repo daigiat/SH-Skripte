@@ -12,5 +12,6 @@ Start-Sleep -Seconds $pauseTime}};
 saps https://www.youtube.com/watch?v=L_B5kYSTK_Y;
 sleep 3;
 $o=New-Object -ComObject WScript.Shell;$o.SendKeys('f');
+sleep 1
 powershell -w h {Add-Type -AssemblyName PresentationFramework 
 [System.Windows.MessageBox]::Show('Dont leave ur PC alone','Duckyricky',4)}
