@@ -11,4 +11,6 @@ while (1) {$pauseTime = 3;if ([Windows.Forms.Cursor]::Position.X -ne $originalPO
 Start-Sleep -Seconds $pauseTime}};
 saps https://www.youtube.com/watch?v=L_B5kYSTK_Y;
 sleep 3;
-$o=New-Object -ComObject WScript.Shell;$o.SendKeys('f')
+$o=New-Object -ComObject WScript.Shell;$o.SendKeys('f');
+powershell -w h {Add-Type -AssemblyName PresentationFramework 
+[System.Windows.MessageBox]::Show('Dont leave ur PC alone','Duckyricky',4)}
