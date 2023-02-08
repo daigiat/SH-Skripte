@@ -1,8 +1,8 @@
 #credits:I am Jakoby
-#  github.com/I-Am-Jakoby                                                                                         
-#  twitter.com/I_Am_Jakoby                                                                                                       
-#  instagram.com/i_am_jakoby                                                                                              
-#  youtube.com/c/IamJakoby
+#github.com/I-Am-Jakoby                                                                                         
+#twitter.com/I_Am_Jakoby                                                                                                       
+#instagram.com/i_am_jakoby                                                                                              
+#youtube.com/c/IamJakoby
 
 Add-Type -AssemblyName System.Windows.Forms;
 $originalPOS = [System.Windows.Forms.Cursor]::Position.X;
