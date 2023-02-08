@@ -14,4 +14,4 @@ sleep 4;
 $o=New-Object -ComObject WScript.Shell;$o.SendKeys('f');
 sleep 2
 Add-Type -AssemblyName PresentationFramework 
-[System.Windows.MessageBox]::Show('Don't leave your PC alone','Duckyricky',0,[System.Windows.MessageBoxOptions]::ServiceNotification)
+[System.Windows.MessageBox]::Show('Don't leave your PC alone','Duckyricky',0)
